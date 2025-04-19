@@ -1,28 +1,28 @@
-Sales Prediction and Forecasting System
-Project Overview
+# Sales Prediction and Forecasting System
+# Project Overview
 
-This project focuses on predicting sales (in this case, stock prices) using machine learning techniques. The goal is to forecast the stock prices of Google (GOOGL) using historical data. This is achieved through a deep learning model built using LSTM (Long Short-Term Memory) networks, a type of Recurrent Neural Network (RNN). The predictions are then sent to the user in the form of a report via email.
+This project focuses on predicting sales (in this case, stock prices) using machine learning techniques. The goal is to forecast the stock prices of Google (GOOGL) using historical data. This is achieved through a deep learning model built using **LSTM (Long Short-Term Memory)** networks, a type of Recurrent Neural Network (RNN). The predictions are then sent to the user in the form of a report via email.
 
 The project fetches data from Yahoo Finance (yfinance) and stores it in a Firebase database for easy access. The system makes use of the stock market data stored in Firebase and performs predictive analysis. After making predictions, the system generates an email report containing the forecast for the upcoming days.
 
 ---
 
-Technology Stack
-Python: The main programming language used for the project. Python is ideal for data analysis, machine learning, and integration with web services.
+# Technology Stack
+**Python**: The main programming language used for the project. Python is ideal for data analysis, machine learning, and integration with web services.
 
-yfinance: This library is used to fetch historical stock price data from Yahoo Finance. We chose yfinance because it's a reliable, easy-to-use tool for accessing stock market data and integrates seamlessly with the project.
+**yfinance**: This library is used to fetch historical stock price data from Yahoo Finance. We chose yfinance because it's a reliable, easy-to-use tool for accessing stock market data and integrates seamlessly with the project.
 
-Firebase: Firebase is used for storing and managing the stock market data. It serves as a cloud-based NoSQL database for holding the historical stock data fetched from Yahoo Finance.
+**Firebase**: Firebase is used for storing and managing the stock market data. It serves as a cloud-based NoSQL database for holding the historical stock data fetched from Yahoo Finance.
 
-LSTM (Long Short-Term Memory): A type of Recurrent Neural Network (RNN) used for time series forecasting. LSTM is used here because it is effective for predicting sequential data, such as stock prices, which have a temporal dependency.
+**LSTM (Long Short-Term Memory)**: A type of Recurrent Neural Network (RNN) used for time series forecasting. LSTM is used here because it is effective for predicting sequential data, such as stock prices, which have a temporal dependency.
 
-Joblib: This is used to save and load the trained model and scaler for future use, making the predictions process faster and more efficient.
+**Joblib**: This is used to save and load the trained model and scaler for future use, making the predictions process faster and more efficient.
 
-Email (SMTP): After making predictions, the system sends a report via email to the user. This is done using Python's built-in smtplib for sending emails.
+**Email (SMTP)**: After making predictions, the system sends a report via email to the user. This is done using Python's built-in smtplib for sending emails.
 
 ---
 
-Features
+# Features
 Fetch Data: The project fetches Google (GOOGL) stock price data from Yahoo Finance using the yfinance library. The data is fetched for the past year by default and stored in Firebase.
 
 Training: The LSTM model is trained on the historical stock data, utilizing a sequence of 100 previous days to predict the stock price for the next 7 days.
@@ -33,7 +33,7 @@ Email Reports: Once the prediction is made, the system sends an email report to 
 
 ---
 
-Data Flow & Process
+# Data Flow & Process
 Data Fetching:
 
 The system fetches historical stock data for Google (GOOGL) using the yfinance API.
@@ -42,7 +42,7 @@ This data is then stored in Firebase using Firebase Admin SDK.
 
 ---
 
-Model Training:
+# Model Training:
 
 The data fetched from Firebase is processed and scaled using the MinMaxScaler to bring all values between 0 and 1.
 
@@ -50,7 +50,7 @@ The data is then used to train a deep learning model (LSTM) to predict stock pri
 
 ---
 
-Prediction:
+# Prediction:
 
 After training, the model is used to predict the stock prices for the next 7 days.
 
@@ -58,7 +58,7 @@ The predicted prices are rescaled to their original values and formatted for eas
 
 ---
 
-Email Report:
+# Email Report:
 
 The predicted stock prices are compiled into an HTML email report.
 
@@ -66,7 +66,7 @@ The email is sent to a predefined email address via SMTP.
 
 ---
 
-Model Accuracy
+# Model Accuracy
 
 The accuracy of the model is measured based on its performance on unseen test data. The model uses Mean Absolute Error (MAE) as the loss function during training, which is a common metric for regression tasks.
 
