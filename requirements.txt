@@ -1,0 +1,11 @@
+yfinance
+firebase-admin
+pandas
+numpy
+matplotlib
+statsmodels
+joblib
+schedule
+streamlit
+keras
+tenserflow
