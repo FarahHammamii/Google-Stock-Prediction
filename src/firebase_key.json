@@ -1,13 +1,3 @@
 {
-  "type": "service_account",
-  "project_id": "smartautoforecast",
-  "private_key_id": "f382f326ed0779b1ba355e5f9c6e07a46e87eb55",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDmt8XzPtFQ3tup\n1UngvmV67AxXACCY1w2o01AxwHjGc20i0FmKoET7j3ztA51dHAt4OOUVt31MvQu9\no76CKYxu74E1u+BgVa/BEI/lG2Yg0d89BhsdrAvSHldgtG4Yv6oEj2bJPY3gF0UY\n/QBWhy9H0Fj3Iq5UFlVmlVpuaPhMJcZqDC9mdQeNK0xx8Np/jQntn/sAzABkIjMB\n7Ov6jLH/veDccy0eb6nZCIEH2MySgBi8Lblu+wxZpfFD8ZNuGI7Ax5hwv/qlAjq1\nw/eLJYDjIEuU4/49YwWEfIU1VToIGWS2cu604xrVBn/+2RAeSY/XyTCqLbNssSJJ\n6iGHX2W/AgMBAAECggEAUyIL3zKW3JN4xjDW7nbcfRbZ+W1P0ZLH1rnRryOhwSwt\nOnqlkQhf4t8YjhSb2sV0soyZqyITMZf6x4ndZuxOsFh3j+OTHVMywZfUqaKeQZwt\n2sC8+4uXNM5/AJbzBtLlEcCUMlYOLZ1k5fSf7w3F8RP3QpGKDD2B5zVQwPDs6w6Q\nT8Dya3sU2hymteo2fL8r4yIxQwAHxaHXY/XElJ1lLwglWj9lGzQXMnn0cafZoHrA\n2k52+gtJ3Q8icB/JSPDJe2tSgqMVGUQRy5ORMc1vUnXuYuRyVFLN3NBFj9Qsj7C2\nl0PPgRfgck2L/Aqd30U09JfqrbCRMdzXrQm6xbY+LQKBgQD2fPjtatDgPJZKCu9+\nT/n/AgL/AoL7805JbbwBW79v6R9xGJxb/owdoLZnO63WszHV4kzNsqc2sW7Qb1js\n/DeN1Q2Uw7N0j6rHHvJ8UZpFIsxaklx8QFx37EsET3Qt1fje9VsrOX8oYnIjxTNr\nHr4JDRuDNeB33lm/IsxwIx7+TQKBgQDvnwICFo2xeSSTc5Y+RWaOVamWgU3OV+iz\nC+CPAu16rDUdM+BG7jFIYguX1NkdYifJ+b3ele6SW+xal8QiM29l9zQnKIkSNS3g\nW9L8O089NIAkGr56oqkizPAUpWahDsRNXFWIE1HvRO82v2IpWAmfzbh9AXDXKmOI\ntOSYtS7yOwKBgQDyny7zm2nA30Jb3YnB/n0omtVSKCnAUMzlkEM33xR/1qthSoVW\nNCe9Xh1NXjwOEtLiIl/RNaJMPrjCKGgS1WzliipVHZE+EdBbMcYjwrskhE08dcbd\ncwjR7mAk/QRxvaW76Sz1TiIxIT4SoaCsN1V9WU6Uh+rMcqxKbLlpQ9jVHQKBgQCo\nQvviA3xUF0E72XqzF4DAih6f9QRx1QEuWTTCt8eS0MIrU3Y12KT6sv55C5m6LGbM\nSXauipIQbEQ4CUJM0dlzvHb+2FQIWRdx6IjrXapyzB7/O1huPTKPoWEk3lCG4Buw\nRxo4h3iNj9Z6l0GSzqNTd94Iya43KSjjokKziOcCaQKBgQCifBTUHwqSzLjTqR7Q\n+oIg6I0Qy1qYZKYC0UbE72lQRGaxFH0lY+he2kvVpLavz91QQbyQmDXgCVX/kmaS\nI6jRxO0oQq2HoX1GyNi4iO8yt/WGejvCLnAk9bkdeyC1auGdfJK0qnIUAKrKRLcJ\nDONCj6ky4UZAibxizUtN/ySEGw==\n-----END PRIVATE KEY-----\n",
-  "client_email": "firebase-adminsdk-fbsvc@smartautoforecast.iam.gserviceaccount.com",
-  "client_id": "105138607196968158509",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40smartautoforecast.iam.gserviceaccount.com",
-  "universe_domain": "googleapis.com"
+  
 }
